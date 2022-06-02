@@ -1,0 +1,13 @@
+POSTGRES_HOST = "database-1.c1uyovs50ahm.us-west-2.rds.amazonaws.com"
+DB_PORT = 5432
+PORT = 3000
+POSTGRES_USERNAME = "postgres"
+POSTGRES_PASSWORD = "Hamed123456"
+POSTGRES_DB = "postgres"
+URL = "http://localhost"
+JWT_SECRET = "encrypted-yayya"
+AWS_REGION = "us-west-2"
+AWS_PROFILE = "default"
+AWS_ACCESS_KEY_ID = "AKIAUYQ2A2VXK2O4EV67"
+AWS_BUCKET = "udacityfinalproject"
+AWS_SECRET_ACCESS_KEY = "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"
