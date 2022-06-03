@@ -8,4 +8,4 @@ This project implies CI/CD as a best practice for devops teams automating integr
 
 Environment variables is passed to elastic bean stack app server from circleCI application
 
-![Environment](./screenshots/CircleCiEnvVariables.PNG)
+![CircleCiEnvVariables](./screenshots/CircleCiEnvVariables.PNG)
