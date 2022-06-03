@@ -4,8 +4,8 @@
 The project will also include writing documentation covering the operations of the deployment process. Which will serve as a way to 
 communicate with future developers and anybody involved in diagnosing outages of the Full-Stack application.
 
-![info](./screenshots/infrastructure-diagram.PNG)
-![pip](./screenshots/pipeline.PNG)
+![info](./Docs/screenshots/infrastructure-diagram.PNG)
+![pipeline](./Docs/screenshots/pipeline.PNG)
 
 ## Website Link
 
