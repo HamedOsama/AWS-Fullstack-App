@@ -1,20 +1,18 @@
-### AWS-Fullstack-App
-# Hosting a Full-Stack Application
-In this project you will learn how to take a newly developed Full-Stack application built for a retailer and deploy it to a cloud service provider so that it is available to customers. You will use the aws console to start and configure the services the application needs such as a database to store product information and a web server allowing the site to be discovered by potential customers. You will modify your package.json scripts and replace hard coded secrets with environment variables in your code.
+### Udagram Application
+ This is Full-Stack project built for a retailer and deploy it to a cloud service provider so that it is available to customers.
 
-After the initial setup, you will learn to interact with the services you started on aws and will deploy manually the application a first time to it. As you get more familiar with the services and interact with them through a CLI, you will gradually understand all the moving parts.
+The project will also include writing documentation covering the operations of the deployment process. Which will serve as a way to 
+communicate with future developers and anybody involved in diagnosing outages of the Full-Stack application.
 
-You will then register for a free account on CircleCi and connect your Github account to it. Based on the manual steps used to deploy the app, you will write a config.yml file that will make the process reproducible in CircleCi. You will set up the process to be executed automatically based when code is pushed on the main Github branch.
+![info](./screenshots/infrastructure-diagram.PNG)
+![pip](./screenshots/pipeline.PNG)
 
-The project will also include writing documentation covering the operations of the deployment process. Which will serve as a way to communicate with future developers and anybody involved in diagnosing outages of the Full-Stack application.
+## Website Link
 
-
-### Access Website
-
-* Use this link: http://finalversion.s3-website-us-west-2.amazonaws.com/
+* Use this link:  [Link](http://finalversion.s3-website-us-west-2.amazonaws.com/)
 
 
-### Hosting
+## Hosting
 
 * This website is being hosted on AWS.
 * Elastic Beanstalk is used for the Backend API.
@@ -23,14 +21,14 @@ The project will also include writing documentation covering the operations of t
 
 
 
-### CI/CD pipeline
+## CI/CD pipeline
 * The CircleCi is linked to the project on Github.
 * It is used to automatically deploy the website to the AWS.
 * It is set to automatically execute once the code is being pushed into the master Github project.
 
 
 
-### Installation
+## Installation
 
 Provision the necessary AWS services needed for running the application:
 
@@ -50,13 +48,33 @@ This project contains two different test suite: unit tests and End-To-End tests(
 
 There are no Unit test on the back-end
 
-### Unit Tests:
+## Unit Tests:
 
 Unit tests are using the Jasmine Framework.
 
-### End to End Tests:
+## End to End Tests:
 
 The e2e tests are using Protractor and Jasmine.
+
+## build status
+
+[![CircleCI](https://circleci.com/gh/Elbassel511/hosting-full-stack-app-udacity/tree/master.svg?style=svg&circle-token=2024127671f542f7d2659199e559ee069519abc6)](https://circleci.com/gh/Elbassel511/hosting-full-stack-app-udacity/tree/master)
+
+
+## App dependencies
+
+- [Node js](https://nodejs.org/)
+- [Express](https://expressjs.com/)
+- [npm](https://www.npmjs.com/)
+- [Angular](https://angular.io/)
+- [node-postgres](https://www.npmjs.com/package/pg)
+- [sequelize](https://sequelize.org/)
+- [Aws cli](https://aws.amazon.com/cli/)
+- [postgres database](https://www.postgresql.org/)
+- [eb cli](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/eb-cli3.html)
+- [RDS postgres database](https://aws.amazon.com/rds/)
+- [ionic](https://ionicframework.com/)
+
 
 ## Built With
 
