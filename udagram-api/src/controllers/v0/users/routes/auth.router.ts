@@ -111,8 +111,8 @@ router.post('/', async (req: Request, res: Response) => {
   res.status(201).send({token: jwt, user: savedUser.short()});
 });
 
-// router.get('/', async (req: Request, res: Response) => {
-//   res.send('auth');
-// });
+router.get('/', async (req: Request, res: Response) => {
+  res.send('auth');
+});
 
 export const AuthRouter: Router = router;

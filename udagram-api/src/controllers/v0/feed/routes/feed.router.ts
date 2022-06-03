@@ -16,7 +16,6 @@ export function requireAuth(req: Request, res: Response, next: NextFunction) {
   if (tokenBearer.length != 2) {
     return res.status(401).send({message: 'Malformed token.'});
   }
-
   const token = tokenBearer[1];
   return jwt.verify(token, c.config.jwt.secret, (err, decoded) => {
     if (err) {
@@ -73,11 +72,8 @@ router.post('/',
         caption: caption,
         url: fileName,
       });
-
       const savedItem = await item.save();
-
       savedItem.url = AWS.getGetSignedUrl(savedItem.url);
       res.status(201).send(savedItem);
     });
-
 export const FeedRouter: Router = router;
