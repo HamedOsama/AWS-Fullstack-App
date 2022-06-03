@@ -2,7 +2,7 @@
 
 Udagram application is hosted on aws cloud services (S3 bucket , Elastic bean stack and RDS postgres)
 
-![infrastructure](./Screenshots/infrastructure.png)
+![infrastructure-diagram](./Screenshots/infrastructure-diagram.png)
 
 ## S3 bucket
 

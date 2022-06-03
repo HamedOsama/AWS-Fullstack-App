@@ -4,8 +4,8 @@
 The project will also include writing documentation covering the operations of the deployment process. Which will serve as a way to 
 communicate with future developers and anybody involved in diagnosing outages of the Full-Stack application.
 
-![info](./Docs/screenshots/infrastructure-diagram.png)
-![pipeline](./Docs/screenshots/pipeline.png)
+![info](./Docs/Screenshots/infrastructure-diagram.png)
+![pipeline](./Docs/Screenshots/pipeline.png)
 
 ## Website Link
 
@@ -58,7 +58,7 @@ The e2e tests are using Protractor and Jasmine.
 
 ## build status
 
-[![CircleCI](https://circleci.com/gh/Elbassel511/hosting-full-stack-app-udacity/tree/master.svg?style=svg&circle-token=2024127671f542f7d2659199e559ee069519abc6)](https://circleci.com/gh/Elbassel511/hosting-full-stack-app-udacity/tree/master)
+[![CircleCI](https://app.circleci.com/pipelines/github/HamedOsama/AWS-Fullstack-App?branch=main.svg?style=svg&circle-token=411a04848abf28bd71876b1e2fb8fc4cc772a0ce)](https://app.circleci.com/pipelines/github/HamedOsama/AWS-Fullstack-App?branch=main)
 
 
 ## App dependencies

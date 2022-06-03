@@ -14,8 +14,8 @@ jobs:
           node-version: '16.14'
       - run: node --version
       - checkout
-      - aws-cli/setup
-      - eb/setup
+      - aws-cli/setup ## setup aws cli
+      - eb/setup ## setup elasticbeanstalk
       - run:
           name: Front-End Install 
           command: |
@@ -32,11 +32,11 @@ jobs:
           name: Back-End Build
           command: |
             npm run backend:build          
-      - run:
+      - run: # Deploy to Elastic beanstalk
           name: Back-End Deploy App
           command: |
-            npm run backend:deploy
-      - run:
+            npm run backend:deploy 
+      - run: # Deploy to S3
           name: Front-End Deploy App
           command: |
             npm run frontend:deploy         
